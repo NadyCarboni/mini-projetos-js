@@ -1,2 +1,2 @@
 # mini-projetos-js
-Repositório com pequenos projetos de java
+Repositório com pequenos projetos de javascripr
