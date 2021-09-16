@@ -35,7 +35,7 @@ btnMinusculo.addEventListener('click', function(e){
 });
 
 btnPrimeiraLetra.addEventListener('click', function(e){
-    let palavras =  textArea.value.split(" ");
+    let palavras =  textArea.value.toLowerCase().split(" ");
     let valor = '';
     for (var i = 0; i< palavras.length; i++) {
        let text = palavras[i].charAt(0).toUpperCase() + palavras[i].substr(1);
